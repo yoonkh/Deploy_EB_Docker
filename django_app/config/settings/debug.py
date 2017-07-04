@@ -16,3 +16,4 @@ ALLOWED_HOSTS = config_secret_debug['django']['allowed_hosts']
 
 print('@@@@@@ DEBUG:', DEBUG)
 print('@@@@@@ ALLOWED_HOSTS:', ALLOWED_HOSTS)
+
