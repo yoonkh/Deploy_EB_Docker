@@ -1,6 +1,8 @@
 FROM        eb_ubuntu
 MAINTAINER  dev@azelf.com
 
+ENV         LANG C.UTF-8
+
 # 현재경로의 모든 파일들을 컨테이너의 /srv/deploy_eb_docker폴더에 복사
 COPY        . /srv/deploy_eb_docker
 # cd /srv/deploy_eb_docker와 같은 효과
