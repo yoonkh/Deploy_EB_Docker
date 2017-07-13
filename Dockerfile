@@ -1,4 +1,4 @@
-FROM        eb_ubuntu
+FROM        yunkyeonghan/eb_ubuntu
 MAINTAINER  dev@azelf.com
 
 # 현재경로의 모든 파일들을 컨테이너의 /srv/deploy_eb_docker폴더에 복사
