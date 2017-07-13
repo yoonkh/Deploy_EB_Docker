@@ -32,3 +32,5 @@ RUN         /root/.pyenv/versions/deploy_eb_docker/bin/pip install uwsgi
 
 #nginx install
 RUN         apt-get -y install nginx
+
+RUN         apt-get -y install supervisor
